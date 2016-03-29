@@ -6,8 +6,6 @@ In addition to doing the base tutorial, I also added:
 - Pagination description ( i.e. showing 1-3 of 5)
 - Load more button at the bottom (upon page load) if there are more than 4 comments
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 # React Tutorial
 
 This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
