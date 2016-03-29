@@ -1,3 +1,11 @@
+#My implementation of the React Tutorial, plus some extras:
+I decided to try my hand at go, which I've never used before, for the server.
+In addition to doing the base tutorial, I also added:
+- A delete button for every comment
+- Put newest comments on top
+- Pagination description ( i.e. showing 1-3 of 5)
+- Load more button at the bottom (upon page load) if there are more than 4 comments
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 # React Tutorial
@@ -5,43 +13,8 @@
 This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
 
 ## To use
-
-There are several simple server implementations included. They all serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. Start a server with one of the following:
-
-### Node
-
-```sh
-npm install
-node server.js
-```
-
-### Python
-
-```sh
-pip install -r requirements.txt
-python server.py
-```
-
-### Ruby
-```sh
-ruby server.rb
-```
-
-### PHP
-```sh
-php server.php
-```
-
-### Go
 ```sh
 go run server.go
-```
-
-### Perl
-
-```sh
-cpan Mojolicious
-perl server.pl
 ```
 
 And visit <http://localhost:3000/>. Try opening multiple tabs!
